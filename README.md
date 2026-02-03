@@ -24,17 +24,40 @@ Projektin päättyessä valmiina on toimiva lipunmyyntijärjestelmä, jolla void
 
 ## Järjestelmän määrittely
 
-Määrittelyssä järjestelmää tarkastellaan käyttäjän näkökulmasta. Järjestelmän
-toiminnot hahmotellaan käyttötapausten tai käyttäjätarinoiden kautta, ja kuvataan järjestelmän
-käyttäjäryhmät.
+## Käyttäjäryhmät (roolit)
 
--   Lyhyt kuvaus käyttäjäryhmistä (rooleista)
--   Käyttäjäroolit ja roolien tarvitsemat toiminnot, esim. käyttötapauskaaviona
-    (use case diagram) tai käyttäjätarinoina.
--   Lyhyt kuvaus käyttötapauksista tai käyttäjätarinat
+Lipunmyyjä
+* Myy lippuja asiakkaille myyntipisteessä
+* Tulostaa liput
+* Näkee tapahtumien lipputilanteen
 
-Kuvauksissa kannattaa harkita, mikä on toteuttajalle ja asiakkaalle oleellista
-tietoa ja keskittyä siihen.
+Ovitarkastaja
+* Tarkistaa lipun koodin
+* Merkitsee lipun käytetyksi
+* Näkee lipun voimassaolon
+
+Ylläpitäjä (Admin)
+* Luo ja hallinnoi tapahtumia
+* Määrittää lipputyypit ja hinnat
+* Hallitsee käyttäjiä
+* Tarkastelee myyntitietoja
+
+## Käyttäjätarinat
+Lipunmyyjä
+* Lipunmyyjänä haluan myydä lipun asiakkaalle, jotta asiakas pääsee tapahtumaan.
+* Lipunmyyjänä haluan tulostaa lipun, jotta asiakas saa fyysisen lipun.
+* Lipunmyyjänä haluan nähdä jäljellä olevat liput, jotta voin seurata myyntitilannetta.
+
+Ovitarkastaja
+* Ovitarkastajana haluan skannata lipun koodin, jotta voin tarkistaa lipun aitouden.
+* Ovitarkastajana haluan merkitä lipun käytetyksi, jotta samaa lippua ei voi käyttää uudelleen.
+
+Ylläpitäjä
+* Adminina haluan luoda tapahtumia, jotta lippuja voidaan myydä eri tapahtumiin.
+* Adminina haluan määrittää lipun hinnat, jotta myynti voidaan hinnoitella oikein.
+
+
+
 
 ## Käyttöliittymä
 
