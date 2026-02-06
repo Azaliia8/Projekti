@@ -54,12 +54,6 @@ Ylläpitäjä
 
 
 ## Käyttöliittymä
-
-Esitetään käyttöliittymän tärkeimmät (vain ne!) näkymät sekä niiden väliset siirtymät käyttöliittymäkaaviona. 
-
-Jos näkymän tarkoitus ei ole itsestään selvä, se pitää kuvata lyhyesti.
-
-
 Järjestelmä on selainpohjainen ja sitä käytetään ensisijaisesti myyntipisteen työasemalla. Käyttöliittymä toteutetaan yksinkertaiseksi ja nopeaksi, jotta lipunmyynti sujuu myös ruuhkatilanteissa.
 
 ### Päänäkymät:
