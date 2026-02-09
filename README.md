@@ -79,6 +79,8 @@ TicketGuru-järjestelmä tallentaa tietokantaan tapahtumat, lipputyypit, yksitt�
 
 Tietokantamalli perustuu rautalankamalleihin, joissa esitetään lipunmyynti, tapahtumien hallinta ja myyntiraportointi.
 
+![alt text](Tietokantakaavio.jpg)
+
 ### Event 
 
 Event-taulu sisältää järjestelmän tapahtumat. Yksi tapahtuma voi sisältää useita lipputyyppejä. 
